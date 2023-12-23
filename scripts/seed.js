@@ -7,7 +7,6 @@ const {
   users,
 } = require('../app/lib/placeholder-data.js');
 const bcrypt = require('bcrypt');
-const { dataBase } = require("@/app/lib/mysqldb");
 
 async function seedUsers(client) {
   try {
